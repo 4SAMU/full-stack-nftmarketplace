@@ -7,6 +7,7 @@
 import "../styles/globals.css";
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { marketplaceAddress } from "../config";
 
 function MyApp({ Component, pageProps }) {
   const [currAddress, updateCurrAddress] = useState();
@@ -86,7 +87,7 @@ function MyApp({ Component, pageProps }) {
             <option value="420">Optimism Goerli</option>
           </select>
           <a
-            href="https://goerli-optimism.etherscan.io/address/0xA59aed175E79FCb33e8d868290F39e09B39670dF#code"
+            href={`https://goerli-optimism.etherscan.io/address/${marketplaceAddress}#code`}
             target="_blank"
             rel="noreferrer"
             className="ml-10  bg-pink-500 text-white font-bold py-2 px-12 rounded"

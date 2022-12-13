@@ -6,8 +6,7 @@ import { ethers } from "ethers";
 import { NFTStorage, File } from "nft.storage";
 import Web3Modal from "web3modal";
 
-const NEW_TOKEN_KEY =
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDViOTg4Q0U4NjZBMkQxNTZmNDI5QTcwZDQ5OWExNDM3NmIwNERBOGMiLCJpc3MiOiJuZnQtc3RvcmFnZSIsImlhdCI6MTY2MjczNDAxMDk1MSwibmFtZSI6ImNvaW5iYXNlbmZ0In0._E1KnvPg0cJ44QtGx8LN-ZwoZ6CaxkCWybUiOFknVkw";
+const NEW_TOKEN_KEY ="your_nft_storage_token_key" //
 
 const CreateNft = () => {
   const [IPFSuploading, setIPFSuploading] = useState(false);

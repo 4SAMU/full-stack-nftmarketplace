@@ -34,7 +34,7 @@ module.exports = {
     },
   },
   etherscan: {
-   
+    //for verifying code on https://optimistic.etherscan.io/
     apiKey: API_KEY,
   },
 };

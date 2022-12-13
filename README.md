@@ -98,9 +98,11 @@ module.exports = {
 
 ```
 
-# verified contract
+#example of a verified contract
 
 click here to confirm [Verified contract](https://goerli-optimism.etherscan.io/address/0xA59aed175E79FCb33e8d868290F39e09B39670dF#code)
+
+
 
 
 

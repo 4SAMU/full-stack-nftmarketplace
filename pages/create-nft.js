@@ -6,7 +6,7 @@ import { ethers } from "ethers";
 import { NFTStorage, File } from "nft.storage";
 import Web3Modal from "web3modal";
 
-const NEW_TOKEN_KEY ="your_nft_storage_token_key" //
+const NEW_TOKEN_KEY ="your_nft_storage_token_key" 
 
 const CreateNft = () => {
   const [IPFSuploading, setIPFSuploading] = useState(false);
@@ -140,7 +140,7 @@ const CreateNft = () => {
         <div className="w-1/2 flex flex-col pb-12">
           <input
             type="text"
-            placeholder="your design"
+            placeholder="your design art name"
             className="mt-8 border rounded p-4"
             value={formParams.name}
             id={formParams.name}
